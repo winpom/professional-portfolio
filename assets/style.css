@@ -8,24 +8,27 @@
     font-family: 'Franklin Gothic Medium';
 }
 
-a {
+li a {
     color: var(--text-color);
     text-decoration: none;
     padding: .25em;
+    transition: all 200ms ease-in-out;
 }
 
-li a:hover {
-    box-shadow: inset 0px 0px 15px var(--shadow-color), 0 0 15px var(--text-color)
+a:hover {
+    box-shadow: inset 0px 0px 15px var(--shadow-color), 0 0 15px var(--text-color);
+    font-size: 1.3em;;
 }
 
 a img {
     color: var(--text-color);
     text-decoration: none;
     padding: .25em;
+    transition: all 250ms linear;
 }
 
 a img:hover {
-    transform: scale(1.25);
+    transform: scale(1.3);
     box-shadow: inset 0px 0px 15px var(--shadow-color), 0 0 15px var(--text-color)
 }
 
@@ -89,32 +92,38 @@ h6 {
 article {
     padding: 1em 2em 2em 2em;
     border-bottom: .15em solid var(--text-color);
-
 }
 
 form {
-    display: inline-block;
-    flex-direction: column;
-    flex-wrap: none;
-    width: 45%;
-    padding: 10px;
+    width:35vw;
     border: 5px solid var(--background-color);
     border-radius: 1em;
-    text-align: center;
 }
 
-input {
-    width: 70%;
-    margin-top: 5px;
+label {
+    text-align:left;
+}
+
+input, textarea {
+    width:25vw;
+    margin-top: 2px;
+    resize: vertical;
 }
 
 button {
     background-color: var(--background-color);
     color: var(--text-color);
-    width: 10em;
+    width: 100%;
     display: block;
     margin: .5em auto .5em;
     border-radius: .25em;
+    transition: all 250ms linear;
+}
+
+button:hover {
+    background-color: var(--text-color);
+    color: var(--background-color);
+    box-shadow: 100 10 100px (var(--shadow-color));
 }
 
 footer {
@@ -124,7 +133,7 @@ footer {
 }
 
 .logo {
-    max-height: 100px;
+    max-height: 95px;
     margin: 5px;
 }
 
@@ -144,44 +153,62 @@ footer {
     margin-left: auto;
     margin-right: auto;
     padding-bottom: .5em;
-    width: 35%;
+    width: 25%;
 }
 
-.box {
-    margin: 1em;
-    display: grid;
-    gap: 10px;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    align-items: center;
-    
+/* .color-swap {
+    color: var(--background-color);
+    background-color: var(--text-color);
+} */
+
+.work {
+    width: 80%;
+    min-width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin: .5em auto;
+    gap: 5px;
 }
 
-.card {
+.work > section {
+    flex: auto initial;
+    max-width: 40%;
+    min-width: 300px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 5px solid var(--text-color);
+    box-shadow: .4vw 1.3vh var(--shadow-color);
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+  }
+
+/* .card {
     position: relative;
     width: 80%;
+    max-width: 50vw;
     margin: 10px auto;
     padding: 10px;
     border: 5px solid var(--text-color);
     box-shadow: 5px 10px var(--shadow-color);
     text-align: center;
     transition: all 0.5s ease-in-out;
-}
+}*/
 
 .contact {
     background-color: var(--shadow-color);
     border-color: var(--text-color);
     color: var(--text-color);
     padding: 5px;
-    display: block;
+    display: grid;
     margin: 0 auto;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: stretch;
+    justify-content: center;
 }
 
 .icon {
     height: 100px;
     padding: 10px;
-    margin: auto;
+    margin: 1em auto;
     display: block;
 }

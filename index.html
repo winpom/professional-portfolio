@@ -29,13 +29,13 @@
         </section>
     </header>
     <main>
-        <article id="about">
+        <article id="about" class="color-swap">
             <h3>About Me</h3>
             <p class="center">I'm Win Pomerantz, a marketer turned aspiring front-end developer. With over seven years
                 of
                 experience in brand and digital marketing at companies like Charles Schwab, Ubisoft, and eBay, I've
-                developed a knack for crafting engaging narratives and user experiences. Originally from Emory
-                University, I'm currently diving into the world of coding through the UC Berkeley Coding Bootcamp. I'm
+                developed a knack for crafting engaging narratives and user experiences. With a bachelors degree from Emory
+                University and MBA from UC Berkeley's Haas School of Business, I'm currently diving into the world of coding through the full-time UC Berkeley Coding Bootcamp. I'm
                 passionate about blending creativity with technical skills to build captivating web experiences.
                 <br></br>
                 Join me as I transition from marketing to coding and explore the exciting intersection of art and
@@ -45,11 +45,11 @@
         <article id="work">
             <h3>My Work</h3>
             <p class="center">Here are some coding projects I've done.</p>
-            <section class="box">
+            <section class="work">
                 <section class="card">
                     <h4>Coding Bootcamp Prework Study Guide</h4>
                     <a href="https://winpom.github.io/prework-study-guide/">
-                        <img src="/professional-portfolio\assets\study guide icon.png" alt="study guide icon"
+                        <img src="/professional-portfolio\assets\images\study guide icon.png" alt="study guide icon"
                             class="icon"></a>
                     <p>Before beginning the UC Berkeley Coding Bootcamp, all students were assigned a prework project to
                         build a course study guide website from scratch. Using the resources given to me, this project
@@ -58,15 +58,22 @@
                 <section class="card">
                     <h4>Coding Bootcamp Code Refactoring</a></h4>
                     <a href="https://winpom.github.io/semantic-elements/"><img
-                            src="/professional-portfolio\assets\refactor icon.png" alt="study guide icon"
+                            src="/professional-portfolio\assets\images\refactor icon.png" alt="refactoring icon"
                             class="icon"></a>
                     <p>In our first big solo project in our Coding Bootcamp, we were tasked with refactoring the code of
                         a poorly designed website. Here I learned how to make code simpler and more efficient, and more
                         easily understood by human readers through the use of semantic HTML elements.</p>
                 </section>
                 <section class="card">
+                    <h4>This Website!</a></h4>
+                    <a href="https://winpom.github.io/professional-portfolio/"><img
+                            src="/professional-portfolio\assets\images\website icon.png" alt="website icon"
+                            class="icon"></a>
+                    <p>Who could forget. It's pretty great, right? A pretty logo, a nice header, clickable images, a contact form. This is with just one week. <br></br> I'm just getting going!</p>
+                </section>
+                <section class="card">
                     <h4>More To Come!</a></h4>
-                    <a href="#"><img src="/professional-portfolio\assets\more to come icon.png" alt="study guide icon"
+                    <a href="#"><img src="/professional-portfolio\assets\images\more to come icon.png" alt="more to come icon"
                             class="icon" /></a>
                     <p>I have only just begun my career in software engineering. This number of projects in this
                         section
@@ -82,10 +89,13 @@
         <h3>Say Hello!</h3>
         <form class="contact">
             <label>Name: </label>
-            <input type="text" , id="name">
+            <input type="text" , id="name" placeholder="John Doe">
             <br>
             <label>Email: </label>
-            <input type="email" , id="email">
+            <input type="email" , id="email" placeholder="john.doe@gmail.com">
+            <br>
+            <label for="subject">Subject: </label>
+            <textarea id="subject" name="subject" placeholder="How can I help?" style="height:75px"></textarea>
             <button type="submit">SEND</button>
         </form>
     </section>
