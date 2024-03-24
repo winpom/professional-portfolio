@@ -1,0 +1,187 @@
+:root {
+    --text-color: white;
+    --background-color: black;
+    --shadow-color: gray;
+}
+
+* {
+    font-family: 'Franklin Gothic Medium';
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+    padding: .25em;
+}
+
+li a:hover {
+    box-shadow: inset 0px 0px 15px var(--shadow-color), 0 0 15px var(--text-color)
+}
+
+a img {
+    color: var(--text-color);
+    text-decoration: none;
+    padding: .25em;
+}
+
+a img:hover {
+    transform: scale(1.25);
+    box-shadow: inset 0px 0px 15px var(--shadow-color), 0 0 15px var(--text-color)
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+p {
+    font-family: "Franklin Gothic Demi"
+}
+
+nav {
+    display: flex;
+    flex: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav li {
+    font-size: 1.25em;
+    margin: .5em 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    text-align: center;
+    padding-bottom: .5em;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 1.75em;
+    padding-bottom: .75em;
+    border-bottom: .3em solid var(--text-color);
+}
+
+h3 {
+    font-size: 1.5em;
+    padding: .5em .25em;
+}
+
+h4 {
+    font-size: 1.25em;
+    padding-bottom: .5em;
+}
+
+h5 {
+    font-size: 1em;
+}
+
+h6 {
+    font-size: .75em;
+}
+
+article {
+    padding: 1em 2em 2em 2em;
+    border-bottom: .15em solid var(--text-color);
+
+}
+
+form {
+    display: inline-block;
+    flex-direction: column;
+    flex-wrap: none;
+    width: 45%;
+    padding: 10px;
+    border: 5px solid var(--background-color);
+    border-radius: 1em;
+    text-align: center;
+}
+
+input {
+    width: 70%;
+    margin-top: 5px;
+}
+
+button {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    width: 10em;
+    display: block;
+    margin: .5em auto .5em;
+    border-radius: .25em;
+}
+
+footer {
+    margin-top: 3em;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo {
+    max-height: 100px;
+    margin: 5px;
+}
+
+.right-justified {
+    justify-content: right;
+    text-align: right;
+    margin-right: 1em;
+}
+
+.center {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.headshot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: .5em;
+    width: 35%;
+}
+
+.box {
+    margin: 1em;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    align-items: center;
+    
+}
+
+.card {
+    position: relative;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 5px solid var(--text-color);
+    box-shadow: 5px 10px var(--shadow-color);
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+
+.contact {
+    background-color: var(--shadow-color);
+    border-color: var(--text-color);
+    color: var(--text-color);
+    padding: 5px;
+    display: block;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.icon {
+    height: 100px;
+    padding: 10px;
+    margin: auto;
+    display: block;
+}
