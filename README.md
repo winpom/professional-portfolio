@@ -2,7 +2,7 @@
 
 ## Description
 
-My name is Win Pomerantz and this is my professional portfolio website, designed to showcase my skills, projects, and journey as I transition from a career in marketing to front-end coding.
+My name is Win Pomerantz and this is my professional portfolio website, designed to showcase my skills, projects, and journey as I transition from a career in marketing to a career in coding.
 
 ## Features
 
@@ -14,8 +14,7 @@ My name is Win Pomerantz and this is my professional portfolio website, designed
 
 - HTML5
 - CSS3
-- JavaScript
-- Any additional libraries or frameworks
+- JavaScript (eventually, but not yet implemented)
 
 ## Installation
 

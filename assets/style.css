@@ -38,7 +38,7 @@ body {
 }
 
 p {
-    font-family: "Franklin Gothic Demi"
+    font-family: "Franklin Gothic Demi";
 }
 
 nav {
@@ -73,7 +73,7 @@ h2 {
 
 h3 {
     font-size: 1.5em;
-    padding: .5em .25em;
+    padding: 1em .25em .25em;
 }
 
 h4 {
@@ -90,12 +90,13 @@ h6 {
 }
 
 article {
-    padding: 1em 2em 2em 2em;
+    padding-bottom: 20px;
     border-bottom: .15em solid var(--text-color);
 }
 
 form {
-    width:35vw;
+    width:45vw;
+    min-width: 250px;
     border: 5px solid var(--background-color);
     border-radius: 1em;
 }
@@ -105,7 +106,8 @@ label {
 }
 
 input, textarea {
-    width:25vw;
+    width:30vw;
+    min-width: 170px;
     margin-top: 2px;
     resize: vertical;
 }
@@ -154,12 +156,8 @@ footer {
     margin-right: auto;
     padding-bottom: .5em;
     width: 25%;
+    min-width: 170px;
 }
-
-/* .color-swap {
-    color: var(--background-color);
-    background-color: var(--text-color);
-} */
 
 .work {
     width: 80%;
@@ -178,22 +176,10 @@ footer {
     margin: 10px auto;
     padding: 10px;
     border: 5px solid var(--text-color);
-    box-shadow: .4vw 1.3vh var(--shadow-color);
-    text-align: center;
-    transition: all 0.5s ease-in-out;
-  }
-
-/* .card {
-    position: relative;
-    width: 80%;
-    max-width: 50vw;
-    margin: 10px auto;
-    padding: 10px;
-    border: 5px solid var(--text-color);
     box-shadow: 5px 10px var(--shadow-color);
     text-align: center;
     transition: all 0.5s ease-in-out;
-}*/
+  }
 
 .contact {
     background-color: var(--shadow-color);
