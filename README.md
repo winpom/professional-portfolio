@@ -4,13 +4,20 @@
 
 My name is Win Pomerantz and this is my professional portfolio website, designed to showcase my skills, projects, and journey as I transition from a career in marketing to a career in coding.
 
-![Website Screenshot](./assets/images/site-screenshot.png)
+![Header Screenshot](./assets/images/site-screenshot-header.png)
 
 ## Features
 
 - **About Me:** Learn about my background, including my experience in marketing and my current journey in coding.
+
+![About Me Screenshot](./assets/images/site-screenshot-about.png)
+
 - **My Work:** Explore the projects I've worked on, including front-end development projects, coding exercises, and any other relevant work.
+
+![My Work Screenshot](./assets/images/site-screenshot-mywork.png)
 - **Say Hello:** Reach out to connect, collaborate, or just say hi!
+
+![Contact Me Screenshot](./assets/images/site-screenshot-contact.png)
 
 ## Technologies Used
 
