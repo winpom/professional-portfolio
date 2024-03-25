@@ -4,10 +4,6 @@
     --shadow-color: gray;
 }
 
-* {
-    font-family: 'Franklin Gothic Medium';
-}
-
 li a {
     color: var(--text-color);
     text-decoration: none;
@@ -35,6 +31,7 @@ a img:hover {
 body {
     background-color: var(--background-color);
     color: var(--text-color);
+    font-family: 'Franklin Gothic Medium';
 }
 
 p {
@@ -130,7 +127,6 @@ button:hover {
 
 footer {
     margin-top: 3em;
-    justify-content: center;
     text-align: center;
 }
 
